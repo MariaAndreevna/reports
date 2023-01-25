@@ -12,3 +12,11 @@
         let arg1 = Number(prompt("Введи значение X"));
         Y1(arg1, callbackyes, callbackno);
     </script>
+
+кт1(2 часть)
+const arr = [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2];
+console.log(arr);
+const product = arr.map(num => num - 5);
+console.log(product);
+const filter1 = arr.filter(num => (num  > 3) && (num < -9));
+console.log(filter1);
