@@ -1,0 +1,14 @@
+    <script>
+        function Y1(arg1, yes, no) {
+            if (arg1 > -1) yes(arg1)
+            else no(arg1)
+        }
+        function callbackyes() {
+            console.log(arg1^2 * 3);
+        }
+        function callbackno() {
+            console.log(6 - arg1);
+        }
+        let arg1 = Number(prompt("Введи значение X"));
+        Y1(arg1, callbackyes, callbackno);
+    </script>
