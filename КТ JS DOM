@@ -1,3 +1,4 @@
+    _КТ1 (1 ЧАСТЬ)_
     <script>
         function Y1(arg1, yes, no) {
             if (arg1 > -1) yes(arg1)
@@ -13,10 +14,12 @@
         Y1(arg1, callbackyes, callbackno);
     </script>
 
-кт1(2 часть)
+_КТ1 (2 часть)_
+<script>
 const arr = [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2];
-console.log(arr);
+     console.log(arr);
 const product = arr.map(num => num - 5);
-console.log(product);
+     console.log(product);
 const filter1 = arr.filter(num => (num  > 3) && (num < -9));
-console.log(filter1);
+     console.log(filter1);
+</script>
